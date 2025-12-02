@@ -19,12 +19,6 @@ let rotations = AoCInput.split("\n");
 let count = 0;
 let dial = 50;
 
-/* creo array di numeri 0-99 */
-/* for (let i = 0; i < 100; i++) {
-  arrNum.push(num);
-  num++;
-} */
-
 rotations.forEach((code) => {
   if (code.startsWith("L")) {
     let newNum = Number(code.replace("L", ""));
